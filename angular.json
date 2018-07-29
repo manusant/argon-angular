@@ -23,9 +23,20 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/bootstrap-datepicker/dist/css/bootstrap-datepicker.nin.css",
+              "node_modules/nouislider/distribute/nouislider.min.css",
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/popper.js/dist/popper.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "node_modules/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js",
+              "node_modules/headroom.js/dist/js/headroom.min.js",
+              "node_modules/nouislider/distribute/nouislider.min.js",
+              "node_modules/onscreen/dist/on-screen.umd.min.js",
+            ]
           },
           "configurations": {
             "production": {
