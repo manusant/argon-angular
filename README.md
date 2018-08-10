@@ -61,7 +61,7 @@
 
 <p>The documentation for the Argon Design System is hosted at our <a href="https://demos.creative-tim.com/argon-design-system/docs/getting-started/overview.html">website</a>.</p>
 
-##Development
+## Development
 ### Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
