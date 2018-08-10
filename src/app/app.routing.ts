@@ -5,10 +5,10 @@ import {Routes, RouterModule} from '@angular/router';
 import {MainComponent} from './main/main.component';
 import {HomeComponent} from './main/home/home.component';
 import {LandingComponent} from './main/landing/landing.component';
-import {LoginComponent} from './main/login/login.component';
-import {ProfileComponent} from './main/profile/profile.component';
-import {RegisterComponent} from './main/register/register.component';
-import {DocComponent} from './doc/doc.component';
+import {LoginComponent} from './access/login/login.component';
+import {ProfileComponent} from './access/profile/profile.component';
+import {RegisterComponent} from './access/register/register.component';
+import {AccessComponent} from './access/access.component';
 
 const routes: Routes = [
     {
@@ -18,12 +18,17 @@ const routes: Routes = [
             {
                 path: 'home',
                 component: HomeComponent,
-                data: {stateName: 'home'}
             },
             {
                 path: 'landing',
                 component: LandingComponent
-            },
+            }
+        ]
+    },
+    {
+        path: 'access',
+        component: AccessComponent,
+        children: [
             {
                 path: 'login',
                 component: LoginComponent
@@ -39,12 +44,8 @@ const routes: Routes = [
         ]
     },
     {
-        path: 'doc',
-        component: DocComponent
-    },
-    {
         path: '',
-        redirectTo: 'main/home',
+        redirectTo: 'access/login',
         pathMatch: 'full'
     }
 ];

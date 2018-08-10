@@ -3,40 +3,30 @@ import {NgModule} from '@angular/core';
 
 import {MainComponent} from './main.component';
 import {LandingComponent} from './landing/landing.component';
-import {ProfileComponent} from './profile/profile.component';
-import {LoginComponent} from './login/login.component';
-import {RegisterComponent} from './register/register.component';
 import {HomeComponent} from './home/home.component';
-import {HeaderComponent} from './header/header.component';
-import {FooterComponent} from './footer/footer.component';
+import {MainFooterComponent} from './main-footer/footer.component';
 import {CommonModule} from '@angular/common';
 import {RouterModule} from '@angular/router';
+import {HeaderModule} from '../header/header.module';
 
 @NgModule({
     declarations: [
-        HeaderComponent,
-        FooterComponent,
+        MainFooterComponent,
         MainComponent,
         LandingComponent,
-        ProfileComponent,
-        LoginComponent,
-        RegisterComponent,
         HomeComponent
     ],
-    exports:[
-        HeaderComponent,
-        FooterComponent,
+    exports: [
+        MainFooterComponent,
         MainComponent,
         LandingComponent,
-        ProfileComponent,
-        LoginComponent,
-        RegisterComponent,
         HomeComponent
     ],
     imports: [
         BrowserModule,
         CommonModule,
-        RouterModule
+        RouterModule,
+        HeaderModule
     ],
     providers: [],
     bootstrap: [MainComponent]

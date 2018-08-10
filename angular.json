@@ -20,25 +20,12 @@
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets",
-              { "glob": "**/*", "input": "src/lib", "output": "./lib" }
+              "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "node_modules/bootstrap/dist/css/bootstrap.css",
-              "node_modules/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css",
-              "node_modules/@fortawesome/fontawesome-free/css/all.css",
-              "node_modules/nouislider/distribute/nouislider.min.css"
+              "src/styles.css"
             ],
             "scripts": [
-              "node_modules/jquery/dist/jquery.min.js",
-              "node_modules/popper.js/dist/umd/popper.min.js",
-              "node_modules/bootstrap/dist/js/bootstrap.min.js",
-              "node_modules/headroom.js/dist/headroom.min.js",
-
-              "node_modules/onscreen/dist/on-screen.umd.min.js",
-              "node_modules/nouislider/distribute/nouislider.min.js",
-              "node_modules/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"
             ]
           },
           "configurations": {

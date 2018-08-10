@@ -7,7 +7,8 @@ import {AppRoutingModule} from './app.routing';
 import {AppComponent} from './app.component';
 
 import {MainModule} from './main/main.module';
-import {DocModule} from './doc/doc.module';
+import {AccessModule} from './access/access.module';
+import {HeaderModule} from './header/header.module';
 
 @NgModule({
     declarations: [
@@ -20,7 +21,8 @@ import {DocModule} from './doc/doc.module';
         RouterModule,
         AppRoutingModule,
         MainModule,
-        DocModule
+        AccessModule,
+        HeaderModule
     ],
     providers: [],
     bootstrap: [AppComponent]
