@@ -1,6 +1,4 @@
-# argon-design-system-angular
-
-<h1 id="argon-design-system"><a href="https://www.creative-tim.com/product/argon-design-system">Argon Design System</a></h1>
+<h1 id="argon-design-system"><a href="https://www.creative-tim.com/product/argon-design-system">Argon Design System Angular</a></h1>
 
 <p><img src="https://s3.amazonaws.com/creativetim_bucket/products/90/original/opt_argon_thumbnail.jpg?3345" alt="Product Gif" /></p>
 
@@ -21,9 +19,6 @@
 <h4 id="example-pages">Example Pages</h4>
 
 <p>If you want to get inspiration or just show something directly to your clients, you can jump start your development with our pre-built example pages. You will be able to quickly set up the basic structure for your web project.</p>
-
-
-
 
 
 <h2 id="table-of-contents">Table of Contents</h2>
