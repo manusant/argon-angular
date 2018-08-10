@@ -45,7 +45,7 @@ const routes: Routes = [
     },
     {
         path: '',
-        redirectTo: 'access/login',
+        redirectTo: 'main/home',
         pathMatch: 'full'
     }
 ];
