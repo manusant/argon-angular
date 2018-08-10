@@ -1,28 +1,29 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
+import {FormsModule} from '@angular/forms';
+import {HttpModule} from '@angular/http';
+import {RouterModule} from '@angular/router';
+import {AppRoutingModule} from './app.routing';
+import {AppComponent} from './app.component';
 
-import { AppComponent } from './app.component';
-import { DocComponent } from './doc/doc.component';
-import { LandingComponent } from './landing/landing.component';
-import { ProfileComponent } from './profile/profile.component';
-import { LoginComponent } from './login/login.component';
-import { RegisterComponent } from './register/register.component';
-import { RootComponent } from './root/root.component';
+import {MainModule} from './main/main.module';
+import {DocModule} from './doc/doc.module';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    DocComponent,
-    LandingComponent,
-    ProfileComponent,
-    LoginComponent,
-    RegisterComponent,
-    RootComponent
-  ],
-  imports: [
-    BrowserModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent
+    ],
+    imports: [
+        BrowserModule,
+        FormsModule,
+        HttpModule,
+        RouterModule,
+        AppRoutingModule,
+        MainModule,
+        DocModule
+    ],
+    providers: [],
+    bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
