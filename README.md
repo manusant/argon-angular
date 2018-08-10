@@ -2,7 +2,7 @@
 
 <p><img src="https://s3.amazonaws.com/creativetim_bucket/products/90/original/opt_argon_thumbnail.jpg?3345" alt="Product Gif" /></p>
 
-<p>Start your development with a Design System for Bootstrap 4. It is open source, free and it features many components that can help you create amazing websites.</p>
+<p>Start your development with a Design System for Bootstrap 4 and Angular. It is open source, free and it features many components that can help you create amazing websites.</p>
 
 <h4 id="fully-coded-components">Fully Coded Components</h4>
 
