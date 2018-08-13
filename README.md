@@ -49,14 +49,6 @@
 
 <p><a href="https://demos.creative-tim.com/argon-design-system">View More</a></p>
 
-<h2 id="quick-start">Quick start</h2>
-
-<ul>
-  <li><a href="https://github.com/creativetimofficial/argon-design-system/archive/master.zip">Download from Github</a>.</li>
-  <li><a href="https://www.creative-tim.com/product/argon-design-system">Download from Creative Tim</a>.</li>
-  <li>Clone the repo: <code class="highlighter-rouge">git clone https://github.com/creativetimofficial/argon-design-system.git</code>.</li>
-</ul>
-
 <h2 id="documentation">Documentation</h2>
 
 <p>The documentation for the Argon Design System is hosted at our <a href="https://demos.creative-tim.com/argon-design-system/docs/getting-started/overview.html">website</a>.</p>
